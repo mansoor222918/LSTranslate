@@ -1,0 +1,16 @@
+# LSTranslate runtime files
+requests.txt
+responses.txt
+bridge_state.txt
+
+# Never publish API keys / environment files
+.env
+.env.*
+*.key
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
